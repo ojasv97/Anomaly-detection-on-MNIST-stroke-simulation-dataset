@@ -4,6 +4,16 @@ The link for the datasets can be found from.
 
 https://drive.google.com/drive/folders/1ndmEVIRGTFi4XjmrdwXqsUcxVihy-qe8?usp=sharing
 
-The dataset is divided into 2 folders, Dataset generation and Model and Anomaly Detection. The Dataset generation folder contains
-data required for running MNIST_stroke_sequence_generation.ipynb file. The Model and Anomaly Detection folder contains data rquired
-for running Model_and_Anomaly_Detection.ipynb.
+The dataset is divided into 2 folders, Dataset generation and Model and Anomaly Detection. 
+1. The Dataset generation folder contains data required for running https://github.com/rust000/Anomaly-detection-on-MNIST-stroke-simulation-dataset/blob/main/MNIST_Stroke_sequence_dataset_construction.ipynb file. 
+2. The Model and Anomaly Detection folder contains data rquired for running https://github.com/rust000/Anomaly-detection-on-MNIST-stroke-simulation-dataset/blob/main/Model_and_Anomaly_Detection.ipynb.
+
+Setup
+
+The ipynb files contains all the necessary dependencies.
+1. The first step is to run the https://github.com/rust000/Anomaly-detection-on-MNIST-stroke-simulation-dataset/blob/main/Model_and_Anomaly_Detection.ipynb file which will generate the dataset required for running https://github.com/rust000/Anomaly-detection-on-MNIST-stroke-simulation-dataset/blob/main/MNIST_Stroke_sequence_dataset_construction.ipynb. The dataset can be found on Model and Anomaly Detection with the name data.npy.
+2. Second step is to run https://github.com/rust000/Anomaly-detection-on-MNIST-stroke-simulation-dataset/blob/main/MNIST_Stroke_sequence_dataset_construction.ipynb file which is used for anomaly detection.
+3. (Optional) https://github.com/rust000/Anomaly-detection-on-MNIST-stroke-simulation-dataset/blob/main/Creating_video_sequence.ipynb can be used for creating video simulation of the stroke sequence dataset.
+4. https://github.com/rust000/Anomaly-detection-on-MNIST-stroke-simulation-dataset/blob/main/Extracting_correct_index_using_ML.ipynb contains an inefficient way of filtering data using some ML algorithms.
+
+
