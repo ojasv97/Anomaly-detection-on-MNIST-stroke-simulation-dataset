@@ -1,6 +1,6 @@
 # Anomaly-detection-on-MNIST-stroke-simulation-dataset
 This repository contains the code for Anomaly-detection-on-MNIST-stroke-simulation-dataset.
-The link for the datasets can be found from.
+The link for the datasets can be found from the link below:
 
 Dataset
 
